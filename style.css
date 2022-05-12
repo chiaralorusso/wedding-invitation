@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+html, body {height: 100%; width: 100%;}
+body {font-family: 'Milonga', serif; background-color: #fff;}
+
+/*Animazione Navbar*/
+.animate{
+  -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;}
+
+/*NAVBAR*/
+.header {background-color: #fff; position: relative; z-index: 10; width: 100%;}
+.header-logo {font-family: 'My Soul', serif; color: #000; font-size: 20px;float: left; display: block; padding: 15px; padding-left: 20px;}
+.header-logo a:hover {color: #fb7c00;}
+.header-logo a:visited {color: #000;}
+.header-menu {padding: 0; margin: 0;}
+.header-menu-item {display: inline-block;}
+.header-menu-item a {
+  color: #54704e;
+  display: block;
+  padding: 20px;
+  margin-left: 15px; margin-right: 15px;
+  text-decoration: none;}
+.header-menu-item a:hover {text-decoration: none; color: #fb7c00;}
+
+.header-icon {
+  background-color: #fff;
+  border-radius: 5px;
+  display: block;
+  float: left;
+  padding: 20px;
+  display: none;}
+.header-icon span {
+  display: block;
+  height: 1.5px;
+  width: 25px;
+  background-color: #54704e;
+  margin-bottom: 7px;}
+
+/*FOOTER*/
+.footer-brand {font-family: 'My Soul', serif; font-size: 30px; margin: 0; color: #000;}
+.footer-brand a:hover {text-decoration: none; color: #000;}
+.footer-brand a:visited {text-decoration: none; color: #000;}
+.footer-text h2 {font-size: 20px; color: #C26000; padding-top: 20px;}
+.copyright-text {font-size: 10px; padding: 10px;}
+
+/*HOME PAGE*/
+/*Primo blocco*/
+.cover-home {
+  background-image: url("img/cover1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;}
+.container-fluid {padding: 0;}
+
+.remind {font-size: 30px; color: #C26000; margin-top: 100px; margin-bottom: 30px; padding: 0;}
+.bride, .groom {font-family: 'Lavishly Yours', serif; font-size: 120px; color: #54704e; margin-top: 30px;}
+.bride {margin-left: 180px;}
+.groom {margin-right: 170px;}
+.col {padding: 0;}
+.month, .year {font-size: 30px; padding: 70px; color: #C26000;}
+.month {text-align: right; padding-right: 0;}
+.year {text-align: left; padding-left: 0;}
+.date {font-size: 120px; padding: 0; color: #54704e;}
+.month, .year, .date {margin-top: 20px; margin-bottom: 40px;}
+
+.space1 {height: 80px;}
+
+/*Secondo blocco*/
+.col-info1 {
+  background-image: url("img/fedi.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;}
+
+.col-info2 {
+  background-image: url("img/brindisi.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;}
+
+.info h1 {font-family: 'Fleur De Leah', serif; font-size: 60px; color:#C26000;}
+.info h2 {font-size: 30px; padding: 20px; margin-bottom: 40px;}
+.info a {font-size: 30px; text-decoration: none; color: #000;}
+.info a:hover {text-decoration: none; color: #fb7c00;}
+.info a:visited {text-decoration: none;}
+.info hr {margin: 0px 50px;}
+.button {border: none; background: none;}
+.button-link {margin: 20px 40px 0; border-bottom: 1px solid #54704e;}
+.button-link:hover {border-bottom: none;}
+.button-link a {font-size: 18px; text-decoration: none; color: #54704e;}
+.button-link a:hover {text-decoration: none;color: #fb7c00;}
+.button-link a:visited {text-decoration: none;}
+
+/*Countdown*/
+.count h1 {
+  font-family: 'Fleur De Leah', serif;
+  font-size: 60px;
+  color: #C26000;
+  margin-top: 50px;}
+
+.count2 {
+  background-image: url("img/sfondo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;}
+
+.count3 {padding: 40px; margin-top: 40px;}
+
+#timer {
+    font-size: 3em;
+    font-weight: 100;
+    color: #000;}
+#timer div {
+    display: inline-block;
+    min-width: 90px;
+    padding: 0 60px;
+    margin: 15px;}
+#timer div span {
+    color: #000;
+    display: block;
+    margin-top: 15px;
+    font-size: .35em;
+    font-weight: 400;}
+
+/*Terzo blocco*/
+.cover-confirm {
+  background-image: url("https://images.unsplash.com/photo-1606800052052-a08af7148866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  height: 400px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;}
+
+.pad-confirm{
+  position: absolute;
+  width: 40%;
+  height: 80%;
+  background-color: white;
+  border-radius: 200px;
+  z-index: -1;}
+
+.confirm h2 {font-size: 20px; color: #C26000; margin-bottom: 40px;}
+.confirm2 h1 {font-family: 'Fleur De Leah', serif; font-size: 70px; color: #54704e; margin-bottom: 40px;}
+.confirm3 h2 {font-size: 15px; color: #C26000; margin-bottom: 10px;}
+.confirm4 p {font-size: 15px;}
+
+/*Quarto blocco*/
+.list1 {
+  padding: 50px;
+  background-image: url("img/nozze.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: center;}
+.list-title h1 {font-family: 'Fleur De Leah', serif; font-size: 60px; color: #000; margin-top: 60px;}
+.list-text {font-size: 15px;}
+.list-text2 h2 {font-size: 15px; margin-top: 10px;}
+
+/*CERIMONIA PAGE*/
+.cover-cerimonia {
+  background-image: url('https://camminomaterano.it/storage/687/conversions/WhatsApp-Image-2022-03-28-at-15.32.00-cover.jpeg');
+  height: 450px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;}
+
+.pad-cerimonia {
+  position: absolute;
+  width: 800px;
+  height: 320px;
+  background-color: white;
+  border-radius: 200px;
+  z-index: -1;}
+
+.pad-cerimonia-text h1 {font-size: 40px; color: #54704e; margin-top: 0;}
+.pad-cerimonia-text p {font-size: 15px; }
+
+.pre-section h2 {font-family: 'Fleur De Leah', serif; font-size: 60px; color: #C26000; margin: 10px 0px;}
+.pre-section h3 {font-size: 15px; color: #000; padding: 10px;}
+
+.section {
+  background-image: url('img/fedi2.png');
+  background-repeat:no-repeat;
+  background-size: 20%;
+  background-position: bottom right;}
+
+.map {float: right;}
+
+/*RICEVIMENTO PAGE*/
+.cover-ricevimento {
+  background-image: url('https://cdn0.matrimonio.com/vendor/7881/3_2/960/jpg/dsc-0399_2_67881_v2.jpeg');
+  height: 450px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;}
+
+.section2 {
+  background-image: url('img/brindisi2.png');
+  background-repeat:no-repeat;
+  background-size: 20%;
+  background-position: bottom right;}
+
+/*Tablet normal screen*/
+  @media only screen and (max-width: 1024px) {
+    /*Home page*/
+    .cover-home {background-size: 120%;}
+    .bride {margin-left: 0px;}
+    .groom {margin-right: 0px;}
+    .info a {font-size: 20px;}
+    .col-info1 {background-size: 50%;}
+    .col-info2 {background-size: 50%;}
+    .list1 {background-size: 40%;}
+    .pad-confirm{width: 70%; height: 80%;}
+    /*Cerimonia - Ricevimento page*/
+    .pad-cerimonia {width: 600px; height: 320px;}
+    .map {padding-top: 50px; margin-bottom: 100px;}
+    .col-cer2 {margin: 0 80px;}
+    .row1 {background-image: url("img/sfondo3.png"); background-repeat:no-repeat; background-size: 80%; background-position: bottom;}
+    .row2 {background-image: url("img/sfondo3.png"); background-repeat:no-repeat; background-size: 80%; background-position: bottom;}
+    .section, .section2 {background-image: none;}
+}
+
+  /*Smartphone bigger screen*/
+  @media only screen and (max-width: 768px) {
+    /*Navbar*/
+    .header {background: none; position: fixed; width: 100%; z-index: 10;}
+    .header-logo {display: none;}
+    .header-icon {display: block; padding: 20px;}
+    .header-menu {width: 100%; height: 0px; overflow: hidden; display: block; background-color: #fff;}
+    .header-menu-item {display: block;}
+    .header-menu-item a {margin-left: 0px; margin-right: 0px; font-size: 20px;}
+    .header-menu-item a:visited {text-decoration: none; color: #54704e;}
+    .is-open {height: 245px; overflow: auto;}
+    /*Home page*/
+    .cover-home {
+      background-image: url("img/cover2.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100%;}
+
+    .col1, .col2, .col5, .col6 {display: none;}
+    .remind {margin-top: 150px;}
+    .bride, .groom {margin-left:0; margin-right:0;}
+    .col-info1, .col-info2 {background-size: 60%;}
+    .list1 {background-size: 60%; background-position: top;}
+    .list-title h1 {margin-top: 30px; margin-bottom: 20px; }
+    .count3 img {width: 100%;}
+    .pad-confirm{width: 90%;}
+    .confirm2 h1 {font-size: 60px;}
+    .confirm4 p {margin: 0 70px;}
+    /*Cerimonia page*/
+    .cover-cerimonia {height: 550px;}
+    .pad-cerimonia {width: 90%; height: 70%;}
+    .pad-cerimonia-text h1 {font-size: 30px; color: #54704e; margin: 0 20px;}
+    .pad-cerimonia-text p {font-size: 15px; margin-top: 10px;}
+
+    .pre-section h2 {font-size: 60px; text-align: center;}
+    .pre-section h3 {font-size: 20px; color: #000; padding: 10px; text-align: center;}
+    .section {background-image: url("img/sfondo3.png"); background-size: 100%; background-position: bottom;}
+    .section3 {padding: 0 50px;}
+    .accordion {padding-bottom: 50px;}
+    .map {padding-top: 0; padding-bottom: 100px;}
+    .col-cer2 {margin: 0;}
+    /*Ricevimento page*/
+    .cover-ricevimento {height: 550px;}
+    .pad-ricevimento {width: 90%; height: 70%;}
+    .section2 {background-image: url("img/sfondo3.png"); background-size: 100%; background-position: bottom;}
+  }
+
+  /*Smartphone normal screen*/
+  @media only screen and (max-width: 480px) {}
+
+
+  /*Smartphone smaller screen*/
+  @media only screen and (max-width: 330px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  * html .clearfix             { zoom: 1; } /* IE6 */
+  *:first-child+html .clearfix { zoom: 1; } /* IE7 */

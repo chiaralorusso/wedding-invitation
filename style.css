@@ -280,7 +280,12 @@ body {font-family: 'Milonga', serif; background-color: #fff;}
   }
 
   /*Smartphone normal screen*/
-  @media only screen and (max-width: 480px) {}
+  @media only screen and (max-width: 480px) {
+    .cover-confirm {
+      background-attachment: fixed;}
+
+  }
+
 
 
 

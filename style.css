@@ -70,6 +70,15 @@ body {font-family: 'Milonga', serif; background-color: #fff;}
 .space1 {height: 80px;}
 
 /*Secondo blocco*/
+.pre-info {
+  background-image: url("img/sfondo4.png");
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: center;}
+.pre-info h1 {font-size: 40px; color: #54704e;}
+.pre-info h2 {font-size: 25px; margin-top: 20px;}
+.pre-info p {font-size: 25px;}
+
 .col-info1 {
   background-image: url("img/fedi.png");
   background-repeat: no-repeat;
@@ -145,21 +154,25 @@ body {font-family: 'Milonga', serif; background-color: #fff;}
   border-radius: 200px;
   z-index: -1;}
 
-.confirm h2 {font-size: 20px; color: #C26000; margin-bottom: 40px;}
-.confirm2 h1 {font-family: 'Fleur De Leah', serif; font-size: 70px; color: #54704e; margin-bottom: 40px;}
-.confirm3 h2 {font-size: 15px; color: #C26000; margin-bottom: 10px;}
-.confirm4 p {font-size: 15px;}
+.confirm h1 {font-size: 30px; color: #C26000;}
+.confirm2 h2 {font-size: 18px; font-weight: bold; padding-top: 20px;}
+.confirm3 p {font-size: 20px;}
 
 /*Quarto blocco*/
-.list1 {
-  padding: 50px;
+.list {
+  padding: 80px;
   background-image: url("img/nozze.png");
   background-repeat: no-repeat;
-  background-size: 20%;
+  background-size: 25%;
   background-position: center;}
-.list-title h1 {font-family: 'Fleur De Leah', serif; font-size: 60px; color: #000; margin-top: 60px;}
-.list-text {font-size: 15px;}
-.list-text2 h2 {font-size: 15px; margin-top: 10px;}
+
+.btn-primary {background: #fff; color: #54704e; border: 1px solid #000; font-size: 25px; padding: 10px 30px;}
+.btn:hover {background: #54704e;}
+.btn:visited {background: #54704e;}
+.modal-body {text-align: left;}
+.modal-body h2 {font-size: 20px;}
+.modal-body h3 {font-size: 15px;}
+.modal-body p {font-size: 15px;}
 
 /*CERIMONIA PAGE*/
 .cover-cerimonia {
@@ -181,7 +194,7 @@ body {font-family: 'Milonga', serif; background-color: #fff;}
   z-index: -1;}
 
 .pad-cerimonia-text h1 {font-size: 40px; color: #54704e; margin-top: 0;}
-.pad-cerimonia-text p {font-size: 15px; }
+.pad-cerimonia-text p {font-size: 15px; margin: 0 450px;}
 
 .pre-section h2 {font-family: 'Fleur De Leah', serif; font-size: 60px; color: #C26000; margin: 10px 0px;}
 .pre-section h3 {font-size: 15px; color: #000; padding: 10px;}
@@ -220,10 +233,13 @@ body {font-family: 'Milonga', serif; background-color: #fff;}
     .info a {font-size: 20px;}
     .col-info1 {background-size: 50%;}
     .col-info2 {background-size: 50%;}
-    .list1 {background-size: 40%;}
+    .pre-info {background-size: 90%; padding: 20px; padding-bottom: 0;}
+    .list {background-size: 40%;}
+    .btn-primary {font-size: 30px; padding: 10px 30px;}
     .pad-confirm{width: 70%; height: 80%;}
     /*Cerimonia - Ricevimento page*/
     .pad-cerimonia {width: 600px; height: 320px;}
+    .pad-cerimonia-text p {font-size: 15px; margin: 10px 150px;}
     .map {padding-top: 50px; margin-bottom: 100px;}
     .col-cer2 {margin: 0 80px;}
     .row1 {background-image: url("img/sfondo3.png"); background-repeat:no-repeat; background-size: 80%; background-position: bottom;}
@@ -254,17 +270,23 @@ body {font-family: 'Milonga', serif; background-color: #fff;}
     .remind {margin-top: 150px;}
     .bride, .groom {margin-left:0; margin-right:0;}
     .col-info1, .col-info2 {background-size: 60%;}
-    .list1 {background-size: 60%; background-position: top;}
-    .list-title h1 {margin-top: 30px; margin-bottom: 20px; }
+    .pre-info {background-size: 90%; padding: 20px; padding-bottom: 0;}
+    .pre-info h1 {font-size: 30px; color: #C26000;}
+    .pre-info h2 {font-size: 20px; margin-top: 20px;}
+    .pre-info p {font-size: 20px; margin-bottom: 0;}
+    .list {background-size: 60%;}
+    .btn-primary {font-size: 20px; padding: 10px 20px;}
+    .count2 {background-size: 80%;}
     .count3 img {width: 100%;}
     .pad-confirm{width: 90%;}
-    .confirm2 h1 {font-size: 60px;}
-    .confirm4 p {margin: 0 70px;}
+    .confirm h1 {font-size: 40px;}
+    .confirm2 h2 {padding-top: 0;}
+    .confirm3 p {margin: 0 70px;}
     /*Cerimonia page*/
     .cover-cerimonia {height: 550px;}
     .pad-cerimonia {width: 90%; height: 70%;}
     .pad-cerimonia-text h1 {font-size: 30px; color: #54704e; margin: 0 20px;}
-    .pad-cerimonia-text p {font-size: 15px; margin-top: 10px;}
+    .pad-cerimonia-text p {font-size: 15px; margin: 10px 60px;}
 
     .pre-section h2 {font-size: 60px; text-align: center;}
     .pre-section h3 {font-size: 20px; color: #000; padding: 10px; text-align: center;}
@@ -282,7 +304,7 @@ body {font-family: 'Milonga', serif; background-color: #fff;}
   /*Smartphone normal screen*/
   @media only screen and (max-width: 480px) {}
 
-    
+
 
 
 

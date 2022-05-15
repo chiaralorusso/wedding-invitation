@@ -169,6 +169,8 @@ body {font-family: 'Milonga', serif; background-color: #fff;}
 .btn-primary {background: #fff; color: #54704e; border: 1px solid #000; font-size: 25px; padding: 10px 30px;}
 .btn:hover {background: #54704e;}
 .btn:visited {background: #54704e;}
+.btn-primary:focus {background-color: #54704e; border-color: #54704e; box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 25%);}
+
 .modal-body {text-align: left;}
 .modal-body h2 {font-size: 20px;}
 .modal-body h3 {font-size: 15px;}
@@ -270,6 +272,7 @@ body {font-family: 'Milonga', serif; background-color: #fff;}
     .remind {margin-top: 150px;}
     .bride, .groom {margin-left:0; margin-right:0;}
     .col-info1, .col-info2 {background-size: 60%;}
+    .col-info2 h1 {margin-top: 100px;}
     .pre-info {background-size: 90%; padding: 20px; padding-bottom: 0;}
     .pre-info h1 {font-size: 30px; color: #C26000;}
     .pre-info h2 {font-size: 20px; margin-top: 20px;}

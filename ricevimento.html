@@ -25,6 +25,8 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
 
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="img/favicon.png" type="image/png"/>
 
@@ -50,8 +52,8 @@
     <main>
       <section class="section2 container-fluid b-image">
         <div class="cover-ricevimento bg-image d-flex justify-content-center align-items-center">
-          <div class="pad-cerimonia"></div>
-          <div class="pad-cerimonia-text text-center">
+          <div class="pad-cerimonia" data-aos="zoom-in"></div>
+          <div class="pad-cerimonia-text text-center" data-aos="zoom-in">
             <div><h1>Tenuta La Vallonea</h1></div>
             <div>
               <span><p>Messsss....</p></span>
@@ -95,8 +97,8 @@
                 </div>
               </div>
             </div>
-            <div class="col d-flex justify-content-center align-items-center">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.605979018407!2d16.70303811527223!3d40.858573879316225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134791a945c90b5d%3A0x2e73ea9e91bcf6f1!2sTenuta%20La%20Vallonea%20sala%20ricevimenti!5e0!3m2!1sit!2sit!4v1651941367120!5m2!1sit!2sit" width="500" height="400" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col d-flex justify-content-center align-items-center" data-aos="fade-left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.605979018407!2d16.70303811527223!3d40.858573879316225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134791a945c90b5d%3A0x2e73ea9e91bcf6f1!2sTenuta%20La%20Vallonea%20sala%20ricevimenti!5e0!3m2!1sit!2sit!4v1651941367120!5m2!1sit!2sit" width="500" height="400" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="Google Maps"></iframe>
               <!--<iframe src="https://www.google.com/maps/embed?pb=!4v1651939967816!6m8!1m7!1sxTK1PWs092tuZH5N-aM0qw!2m2!1d40.69877083761207!2d16.4728499943542!3f318.34450321417273!4f0.8928770618822881!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
             </div>
           </div>
@@ -107,7 +109,7 @@
       <div class="space1"></div>
 
       <footer>
-        <div class="container">
+        <div class="container" data-aos-anchor-placement="top-bottom">
           <footer class="py-3 my-4">
             <div class="text-center border-bottom pb-2 mb-2">
               <a class="footer-brand" href="index.html">N</a></div>
@@ -158,5 +160,10 @@
         </script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+      </script>
       </body>
       </html>

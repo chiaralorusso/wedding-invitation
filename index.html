@@ -25,6 +25,8 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
 
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="img/favicon.png" type="image/png"/>
 
@@ -70,14 +72,14 @@
 <main>
   <section class="container-fluid">
     <section class="cover-home text-center bg-image">
-      <div class="row gx-0">
+      <div class="row gx-0" data-aos="zoom-in">
         <span class="remind">SAVE THE DATE</span>
       </div>
-      <div class="row gx-0">
+      <div class="row gx-0" data-aos="zoom-in">
         <div class="col bride">Nadia</div>
         <div class="col groom">Angelo</div>
       </div>
-      <div class="row gx-0">
+      <div class="row gx-0" data-aos="zoom-in">
         <div class="col col1"></div>
         <div class="col col2"></div>
         <div class="col col3"></div>
@@ -96,7 +98,7 @@
 
     <div class="space1"></div>
 
-    <section>
+    <section data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       <div class="pre-info text-center bg-image">
         <h2>Cari amici e parenti</h2>
         <h1>Finalmente ci sposiamo!</h1>
@@ -108,7 +110,7 @@
 
     <section>
       <div class="row info">
-        <div class="col col-info1 text-center bg-image">
+        <div class="col col-info1 text-center bg-image" data-aos="fade-right">
           <h1>Cerimonia</h1>
           <h2>11:30</h2>
           <a href="https://www.google.com/maps/place/Santuario+Santa+Maria+di+Picciano/@40.699062,16.472315,15z/data=!4m5!3m4!1s0x0:0xdaea120ff08a1b88!8m2!3d40.699062!4d16.472315" target="_blank">
@@ -121,7 +123,7 @@
               </div>
             </button>
           </div>
-          <div class="col col-info2 text-center bg-image">
+          <div class="col col-info2 text-center bg-image" data-aos="fade-left">
             <h1>Ricevimento</h1>
             <h2>13:30</h2>
             <a href="https://www.google.com/maps/place/Tenuta+La+Vallonea+sala+ricevimenti/@40.8585739,16.7052268,15z/data=!4m2!3m1!1s0x0:0x2e73ea9e91bcf6f1?sa=X&ved=2ahUKEwjq46OElL73AhU-hf0HHaS5CD4Q_BJ6BAhgEAU" target="_blank">
@@ -140,7 +142,7 @@
         <div class="space1"></div>
 
         <!--Countdown-->
-        <section class="count text-center">
+        <section class="count text-center" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
           <h1>Non vediamo l'ora di vederti!</h1>
           <div class="count2 bg-image" id="timer"></div>
         </section>
@@ -156,66 +158,66 @@
         <div class="cover-confirm bg-image d-flex justify-content-center align-items-center">
           <div class="pad-confirm"></div>
           <div>
-            <div>
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
               <span class="confirm text-center"><h1>CI SARAI?</h1></span></div>
-                  <div>
-                    <span class="confirm2 text-center"><h2>RSVP</h2></span></div>
-                    <div>
-                      <span class="confirm3 text-center"><p>Per favore, conferma la tua presenza entro il 30 Agosto</p></span></div>
-                    </section>
+              <div>
+                <span class="confirm2 text-center"><h2>RSVP</h2></span></div>
+                <div>
+                  <span class="confirm3 text-center"><p>Per favore, conferma la tua presenza entro il 30 Agosto</p></span></div>
+                </section>
 
-                    <div class="space1"></div>
+                <div class="space1"></div>
 
-                    <section class="list container-md bg-image">
-                        <div class="text-center">
-                              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Lista nozze
-                              </button>
-                               <!-- Modal -->
-                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h5 class="modal-title" id="exampleModalLabel">Lista nozze</h5>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <p>La nostra casa è già arredata e piena di amore.
-                                      Tuttavia, se volete farci un dono gradito apprezzeremo moltissimo un aiuto per il viaggio di nozze</p>
-                                      <h2>Intestatario</h2>
-                                      <h3>Nome Cognome</h3>
-                                      <h2>Iban</h2>
-                                      <h3>IT00000000000000</h3>
-                                      <h2>Causale</h2>
-                                      <h3>CIAOCIAO</h3>
-                                    </div>
-                                    <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
+                <section class="list container-md bg-image">
+                  <div class="text-center">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Lista nozze
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Lista nozze</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>La nostra casa è già arredata e piena di amore.
+                              Tuttavia, se volete farci un dono gradito apprezzeremo moltissimo un aiuto per il viaggio di nozze</p>
+                              <h2>Intestatario</h2>
+                              <h3>Nome Cognome</h3>
+                              <h2>Iban</h2>
+                              <h3>IT00000000000000</h3>
+                              <h2>Causale</h2>
+                              <h3>CIAOCIAO</h3>
                             </div>
-                            </section>
-                          </main>
-
-                          <div class="space1"></div>
-
-                          <footer>
-                            <div class="container">
-                              <footer class="py-3 my-4">
-                                <div class="text-center border-bottom pb-2 mb-2">
-                                  <a class="footer-brand" href="index.html">N</a></div>
-                                  <div>
-                                    <span class="footer-text text-center"><h2>~ To Get There ~</h2></span></div>
-                                    <p class="copyright-text text-center text-muted">©Copyright 2022 Lorusso Carbone</p>
-                                  </footer>
-                                </div>
-                              </footer>
-
-
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </section>
+                </main>
+
+                <div class="space1"></div>
+
+                <footer>
+                  <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <footer class="py-3 my-4">
+                      <div class="text-center border-bottom pb-2 mb-2">
+                        <a class="footer-brand" href="index.html">N</a></div>
+                        <div>
+                          <span class="footer-text text-center"><h2>~ To Get There ~</h2></span></div>
+                          <p class="copyright-text text-center text-muted">©Copyright 2022 Lorusso Carbone</p>
+                        </footer>
+                      </div>
+                    </footer>
+
+
+                  </div>
 
 
 
@@ -234,49 +236,54 @@
 
 
 
-                            <!--Bootstrap link-->
-                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+                  <!--Bootstrap link-->
+                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-                            <!--Countdown script-->
-                            <script type="text/javascript">
-                            function updateTimer() {
-                              future = Date.parse("Oct 1, 2022 00:00:00");
-                              now = new Date();
-                              diff = future - now;
+                  <!--Countdown script-->
+                  <script type="text/javascript">
+                  function updateTimer() {
+                    future = Date.parse("Oct 1, 2022 00:00:00");
+                    now = new Date();
+                    diff = future - now;
 
-                              days = Math.floor(diff / (1000 * 60 * 60 * 24));
-                              hours = Math.floor(diff / (1000 * 60 * 60));
-                              mins = Math.floor(diff / (1000 * 60));
-                              secs = Math.floor(diff / 1000);
+                    days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                    hours = Math.floor(diff / (1000 * 60 * 60));
+                    mins = Math.floor(diff / (1000 * 60));
+                    secs = Math.floor(diff / 1000);
 
-                              d = days;
-                              h = hours - days * 24;
-                              m = mins - hours * 60;
-                              s = secs - mins * 60;
+                    d = days;
+                    h = hours - days * 24;
+                    m = mins - hours * 60;
+                    s = secs - mins * 60;
 
-                              document.getElementById("timer")
-                              .innerHTML =
-                              '<div>' + d + '<span>Days</span></div>' +
-                              '<div>' + h + '<span>Hours</span></div>' +
-                              '<div>' + m + '<span>Minutes</span></div>' +
-                              '<div>' + s + '<span>Seconds</span></div>';
-                            }
-                            setInterval('updateTimer()', 1000);
-                            </script>
+                    document.getElementById("timer")
+                    .innerHTML =
+                    '<div>' + d + '<span>Days</span></div>' +
+                    '<div>' + h + '<span>Hours</span></div>' +
+                    '<div>' + m + '<span>Minutes</span></div>' +
+                    '<div>' + s + '<span>Seconds</span></div>';
+                  }
+                  setInterval('updateTimer()', 1000);
+                  </script>
 
-                            <!--Menu script-->
-                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-                            <script>
-                            $(document).ready(function(){
+                  <!--Menu script-->
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+                  <script>
+                  $(document).ready(function(){
 
-                              $(".header-icon").click(function(e){
+                    $(".header-icon").click(function(e){
 
-                                $(".header-menu").toggleClass("is-open");
-                                e.preventDefault();
-                              });
-                            });
-                            </script>
+                      $(".header-menu").toggleClass("is-open");
+                      e.preventDefault();
+                    });
+                  });
+                  </script>
 
-                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                          </body>
-                          </html>
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+                  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                  <script>
+                  AOS.init();
+                </script>
+              </body>
+              </html>

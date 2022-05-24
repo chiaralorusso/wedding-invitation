@@ -171,10 +171,11 @@ body {font-family: 'Milonga', serif; background-color: #fff;}
 .btn:visited {background: #54704e;}
 .btn-primary:focus {background-color: #54704e; border-color: #54704e; box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 25%);}
 
+.modal-title {color: #54704e;}
 .modal-body {text-align: left;}
-.modal-body h2 {font-size: 20px; margin-top: 20px;}
+.modal-body h2 {font-size: 17px; margin-top: 20px; color: #54704e;}
 .modal-body h3 {font-size: 15px; margin-bottom: 20px;}
-.modal-body p {font-size: 15px;}
+.modal-body p {font-size: 17px;}
 
 /*CERIMONIA PAGE*/
 .cover-cerimonia {

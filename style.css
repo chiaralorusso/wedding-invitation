@@ -94,6 +94,7 @@ body {font-family: 'Milonga', serif; background-color: #fff;}
 
 .info h1 {font-family: 'Fleur De Leah', serif; font-size: 60px; color:#C26000;}
 .info h2 {font-size: 30px; padding: 20px; margin-bottom: 40px;}
+.info h3 {font-size: 15px; font-weight: lighter;}
 .info a {font-size: 30px; text-decoration: none; color: #000;}
 .info a:hover {text-decoration: none; color: #fb7c00;}
 .info a:visited {text-decoration: none;}
@@ -294,7 +295,7 @@ body {font-family: 'Milonga', serif; background-color: #fff;}
     .pad-cerimonia-text p {font-size: 15px; margin: 20px 60px;}
 
     .pre-section h2 {font-size: 60px; text-align: center;}
-    .pre-section h3 {font-size: 20px; color: #000; padding: 10px; text-align: center;}
+    .pre-section h3 {font-size: 20px; color: #000; padding: 10px; text-align: center; margin-bottom: 20px;}
     .section {background-image: url("img/sfondo3.png"); background-size: 100%; background-position: bottom;}
     .section3 {padding: 0 50px;}
     .accordion {padding-bottom: 50px;}
